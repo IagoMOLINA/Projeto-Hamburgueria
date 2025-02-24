@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poiret+One&family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Paris';
+    src: url(fonts/ArtisanParis-Regular.otf) format(opentype);
+}
+
+:root {
+    --cor01: #d9d8d7;
+    --cor02: #bfb854;
+    --cor03: #72a603;
+    --cor04: #260c03;
+    --cor05: #a03f1f;
+
+    --font-normal: 'Poiret One';
+    --font-estilizada: 'Tangerine';
+    --font-titulo: 'Paris';
+    --font-titulo2: 'Bebas Neue';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d3d3d3;
+}
+
+main {
+    position: absolute;
+    width: 100vw;
+    height: 98vh;
+ 
+}
+
+section#dados {
+    overflow: hidden; /* Impede o colapso de margens */
+    height: 85vh;
+    background:url(/images/fundo-login2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+form {
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.74);
+    color: #f0f0f0;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 5px;
+
+}
+
+div {
+    margin-bottom: 20px;
+}
+input{
+    background-color: transparent;
+    border: transparent;
+}
+
+form input:hover{
+    border:transparent;
+}
+
+div.usuario, div.senha {
+    background-color: rgba(14, 11, 11, 0.719);
+    border-radius: 6px;
+    border: 1px solid rgba(143, 143, 143, 0.589);
+}
+
+div.buttom > input{
+    background-color: var(--cor03);
+    height: 45px;
+    width: 380px;
+    border-radius: 5px;
+    
+}

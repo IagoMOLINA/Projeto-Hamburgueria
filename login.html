@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/estilos/login.css">
+</head>
+<body>
+    <main>
+        <section id="dados">
+            <form action="cadastro.php" method="get">
+                <h1>Entrar</h1>
+                <div class="usuario">
+                    <label for="user">Usuário</label><br>
+                    <input type="text" name="user" id="user" required>
+                </div>
+
+                <div class="senha">
+                    <label for="pswrd">Senha</label><br>
+                    <input type="password" name="senha" id="pswrd" required>
+                </div>
+
+                <div class="buttom">
+                    <input type="submit" value="Entrar">
+                </div>
+                <div >
+                    <input type="checkbox" name="lembrar" id="lembrar">Lembre-se de mim
+                    <a href="">Precisa de ajuda?</a>
+                </div>
+                Novo por aqui? <a href="">Cadastra-se agora</a>.
+            </form>
+        </section>
+    </main>
+</body>
+</html>
