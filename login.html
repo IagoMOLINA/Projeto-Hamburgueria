@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/estilos/login.css">
 </head>
 <body>
@@ -13,25 +12,42 @@
             <form action="cadastro.php" method="get">
                 <h1>Entrar</h1>
                 <div class="usuario">
+                    <input type="text" name="user" id="user" required placeholder=" ">
                     <label for="user">Usuário</label><br>
-                    <input type="text" name="user" id="user" required>
                 </div>
 
                 <div class="senha">
+                    <input type="password" name="senha" id="pswrd" required placeholder=" ">
                     <label for="pswrd">Senha</label><br>
-                    <input type="password" name="senha" id="pswrd" required>
                 </div>
 
                 <div class="buttom">
-                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Entrar"> 
                 </div>
-                <div >
+
+                <div class="sem-acesso">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <div class="help">
                     <input type="checkbox" name="lembrar" id="lembrar">Lembre-se de mim
-                    <a href="">Precisa de ajuda?</a>
+                    <a href="#">Precisa de ajuda?</a>
                 </div>
-                Novo por aqui? <a href="">Cadastra-se agora</a>.
+                Novo por aqui? <a href="#">Cadastra-se agora</a>.
+                
             </form>
         </section>
     </main>
+
+    <footer>
+        <article id="fale-conosco">
+            <h1>Redes Sociais</h2>
+            <p>Fique conectado com a gente nas redes sociais! Acompanhe nossas novidades, promoções e muito mais.</p>
+            <a href="#" target="_blank" class="externo">Facebook</a>
+            <a href="#" target="_blank" class="externo">Instagram</a>
+            <a href="#" target="_blank" class="externo">Twitter</a>
+            <a href="#" target="_blank" class="externo">TikTok</a>
+        </article>
+        <p>&copy; Site Desenvolvido por Iago Molina </p>
+    </footer>
 </body>
 </html>
