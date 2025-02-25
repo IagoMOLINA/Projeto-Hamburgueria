@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Paris';
-    src: url(fonts/ArtisanParis-Regular.otf) format(opentype);
+    src: url('../fonts/ArtisanParis-Regular.otf') format(opentype);
 }
 
 :root {
@@ -40,7 +40,7 @@ main {
 section#dados {
     overflow: hidden; /* Impede o colapso de margens */
     height: 85vh;
-    background:url(/images/fundo-login2.jpg) no-repeat center center;
+    background:url('../images/fundo-login2.jpg') no-repeat center center;
     background-size: cover;
 }
 
