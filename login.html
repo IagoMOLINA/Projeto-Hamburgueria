@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="estilos/global.css">
     <link rel="stylesheet" href="estilos/login.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/login-theme.css">
 </head>
 <body>
     <main>
-        <section id="dados">
+        <section class="tema">
             <form action="cadastro.php" method="get">
                 <h1>Entrar</h1>
-                <div class="usuario">
+
+                <div class="campo-form">
                     <input type="text" name="user" id="user" required placeholder=" ">
-                    <label for="user">Usuário</label><br>
+                    <label for="user">Usuário</label>
                 </div>
-
-                <div class="senha">
+            
+                <div class="campo-form">
                     <input type="password" name="senha" id="pswrd" required placeholder=" ">
-                    <label for="pswrd">Senha</label><br>
+                    <label for="pswrd">Senha</label>
                 </div>
 
-                <div class="buttom">
+                <div  class="botoes">
                     <input type="submit" value="Entrar"> 
                 </div>
 
                 <div class="sem-acesso">
                     <a href="#">Esqueceu a senha?</a>
                 </div>
+
                 <div class="help">
                     <input type="checkbox" name="lembrar" id="lembrar">Lembre-se de mim
                     <a href="#">Precisa de ajuda?</a>
@@ -40,7 +45,7 @@
 
     <footer>
         <article id="fale-conosco">
-            <h1>Redes Sociais</h2>
+            <h2>Redes Sociais</h2>
             <p>Fique conectado com a gente nas redes sociais! Acompanhe nossas novidades, promoções e muito mais.</p>
             <a href="#" target="_blank" class="externo">Facebook</a>
             <a href="#" target="_blank" class="externo">Instagram</a>

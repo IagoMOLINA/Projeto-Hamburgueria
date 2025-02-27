@@ -1,0 +1,41 @@
+/* ITENS DO FOOTER (RODA-PÉ) */
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #2c2c2c;
+    color: white;
+    padding-top: 20px ;
+    box-sizing: border-box;
+}
+
+#fale-conosco h2 {
+    font-size: 1.3em;
+    color: #f4f8ef;
+    padding-top: 10px;
+}
+
+#fale-conosco p {
+    padding: 7px;
+}
+
+#fale-conosco a {
+    text-decoration: none;
+    font-size: 1.18em;
+    color: var(--cor02);
+    padding: 0 7px;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+#fale-conosco a:hover {
+    text-decoration: underline;
+    color: rgb(11, 170, 96);
+}
+
+footer > p {
+    border: 1px dashed #353535;
+    margin-top: 20px;
+    font-size: 0.9em;
+}

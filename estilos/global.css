@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poiret+One&family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Paris';
+    src: url(fonts/ArtisanParis-Regular.otf) format(opentype);
+}
+
+:root {
+    --cor01: #d9d8d7;
+    --cor02: #bfb854;
+    --cor03: #72a603;
+    --cor04: #260c03;
+    --cor05: #a03f1f;
+
+    --font-normal: 'Poiret One';
+    --font-estilizada: 'Tangerine';
+    --font-titulo: 'Paris';
+    --font-titulo2: 'Bebas Neue';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f7f1e8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupe no mínimo a altura total da tela */
+    margin: 0;
+    overflow-x: hidden; /* Impede a rolagem horizontal */  
+}
+
+main {
+    flex-grow: 1; /* Permite que o conteúdo principal cresça e empurre o footer para baixo */
+    width: 100vw;
+    height: auto; /* Removemos a altura fixa */
+    position: relative; /* Garantimos que não fique absoluto */
+}
+
+h1, h2, h3  {
+    font-family: var(--font-titulo1);
+}
