@@ -1,0 +1,18 @@
+@import url(global.css);
+
+div.botoes > p {
+    margin: 21px 0 18px 0 ;
+    text-align: center;
+}
+
+div.botoes input#entrar {
+    background-color: #7f8371;
+}
+
+div.botoes input#entrar:hover {
+    background-color: #9da784;;
+}
+
+div.botoes input#entrar:active {
+    background-color: #83be03;;
+}
